@@ -49,7 +49,7 @@
     [self.view addSubview:_myScrollView];
 
     //
-    _smallMapView = [[SmallMapView alloc] initWithUIScrollView:_myScrollView frame:CGRectMake(0, 0, 100, 100 * _myScrollView.contentSize.height / _myScrollView.contentSize.width)];
+    _smallMapView = [[SmallMapView alloc] initWithUIScrollView:_myScrollView frame:CGRectMake(0, 0, 150, 150 * _myScrollView.contentSize.height / _myScrollView.contentSize.width)];
     _smallMapView.backgroundColor = [UIColor blackColor];
     [self.view addSubview:_smallMapView];
 }
